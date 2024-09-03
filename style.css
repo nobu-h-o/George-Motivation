@@ -1,0 +1,102 @@
+html{
+    background-color: darkslateblue;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: darkslateblue;
+    flex-direction: column;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 20px solid white;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border-radius: 50%;
+    height: 40vh;
+    width: 40vh;
+}
+
+.box{
+    padding-top: 5vh;
+    border-radius: 50%;
+}
+
+.list{
+    display: inline-block;
+}
+
+.motivation{
+    height: 10vh;
+    width: 20vh;
+    text-align: center;
+    display: inline-block;
+    margin-left: 3rem;
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.motivationButton{
+    position: absolute;
+    top: 45%;
+}
+
+.motivation:active{
+    background-color: gray;
+}
+
+.container img{
+    align-self: center;
+    box-shadow: 0 0 10rem rgba(255,255,255,0.8);
+}
+
+.container h1{
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 3rem !important;
+    }
+    .list {
+        display: block !important;
+        position: relative;
+        top: 1vh;
+        margin: 0 auto;
+    }
+    .box {
+        padding-top: 1vh;
+        text-align: center;
+    }
+    .motivationButton {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        top: auto;
+        margin-top: 10vh;
+    }
+    .motivation {
+        margin: 0;
+    }
+}
