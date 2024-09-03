@@ -1,6 +1,6 @@
-const button = document.querySelector(".motivation")
+const button = document.querySelector(".circle")
 const audio = document.querySelector(".audio")
-
+const image = document.querySelector("img")
 
 const audioList = [
     "George1.mp3",
@@ -17,4 +17,5 @@ button.addEventListener("click", () => {
     let audioIndex = Math.floor(Math.random() * audioList.length);
     audio.src = "./assets/" + audioList[audioIndex];
     audio.play();
+    image.style.backgroundColor = "gray";
 })

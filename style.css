@@ -22,6 +22,11 @@ img {
     border: 20px solid white;
     padding: 0;
     margin: 0;
+    cursor: pointer;
+}
+
+img:active {
+    opacity: 0.8;
 }
 
 .box{
@@ -29,33 +34,6 @@ img {
     border-radius: 50%;
 }
 
-.list{
-    display: inline-block;
-}
-
-.motivation{
-    height: 10vh;
-    width: 25vh;
-    text-align: center;
-    display: inline-block;
-    margin-left: 3rem;
-    font-family: "Mochiy Pop P One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
-    border-radius: 40px;
-    cursor: pointer;
-    color: black;
-}
-
-.motivationButton{
-    position: absolute;
-    top: 45%;
-}
-
-.motivation:active{
-    background-color: gray;
-}
 
 .container img{
     align-self: center;
@@ -84,18 +62,7 @@ img {
     }
     .box {
         text-align: center;
-        padding-top: 1rem;
+        padding-top: 3rem;
         padding-bottom: 1rem;
-    }
-    .motivationButton {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        position: relative;
-        top: auto;
-        margin-top: 3vh;
-    }
-    .motivation {
-        margin: 0;
     }
 }
