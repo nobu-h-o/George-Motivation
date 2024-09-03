@@ -78,7 +78,7 @@ img {
 @media (max-width: 700px) {
     h1 {
         font-size: 3rem !important;
-        margin: 0;
+        margin: 0.5vh;
     }
     .list {
         display: block !important;
@@ -98,9 +98,9 @@ img {
         position: relative;
         top: auto;
         margin-top: 3vh;
-        font-size: 1.5rem;
     }
     .motivation {
         margin: 0;
+        font-size: 1.5rem;
     }
 }
