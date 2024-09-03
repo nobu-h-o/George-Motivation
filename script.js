@@ -13,12 +13,8 @@ const audioList = [
     "George8.mp3",
 ]
 
-let audioIndex = 0;
 button.addEventListener("click", () => {
+    let audioIndex = Math.floor(Math.random() * audioList.length);
     audio.src = "./assets/" + audioList[audioIndex];
     audio.play();
-    audioIndex++;
-    if(audioIndex===audioList.length){
-        audioIndex = 0;
-    }
 })

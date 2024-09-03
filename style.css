@@ -39,7 +39,7 @@ img {
 
 .motivation{
     height: 10vh;
-    width: 20vh;
+    width: 25vh;
     text-align: center;
     display: inline-block;
     margin-left: 3rem;
@@ -101,6 +101,5 @@ img {
     }
     .motivation {
         margin: 0;
-        font-size: 1.5rem;
     }
 }
